@@ -380,15 +380,14 @@
     </script>
 
     <!-- Cookie Banner -->
-    <div id="cookie-banner" style="position: fixed; bottom: 0; left: 0; width: 100%; background: #333; color: white; padding: 15px; text-align: center; z-index: 100;">
-        This site uses technical cookies to improve your experience.
-        <a href="../cookies.html" style="color: #ffcc00;">Learn more</a>
-        <button onclick="document.getElementById('cookie-banner').style.display='none'" style="margin-left: 20px; cursor: pointer;">Accept</button>
-        
-        <div style="margin-top: 10px; font-size: 0.8em;">
-            <a href="../cookies.html" style="color: #ccc;">Cookie Policy</a> | 
-            <a href="../legal.html" style="color: #ccc;">Legal Information and Privacy</a>
-        </div>
+<div id="cookie-banner" style="position: fixed; bottom: 20%; left: 5%; right: 5%; background: #333; color: white; padding: 20px; text-align: center; z-index: 1000; border-radius: 10px; box-shadow: 0px 0px 10px rgba(0,0,0,0.5);">
+    <p style="margin-top: 0;">This site uses technical cookies to improve your experience.</p>
+    
+    <button onclick="document.getElementById('cookie-banner').style.display='none'" style="cursor: pointer; padding: 5px 15px; margin-right: 10px;">Accept</button>
+    <button onclick="document.getElementById('cookie-banner').style.display='none'" style="cursor: pointer; padding: 5px 15px;">Decline</button>
+    
+    <div style="margin-top: 15px; font-size: 0.8em;">
+        <a href="../cookies.html" style="color: #ffcc00; text-decoration: underline;">Cookie Policy</a> | 
+        <a href="../legal.html" style="color: #ccc; text-decoration: underline;">Legal Information and Privacy</a>
     </div>
-</body>
-</html>
+</div>
